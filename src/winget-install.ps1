@@ -40,7 +40,8 @@ $apps = @(
     "Notion.Notion", 
     "Notion.NotionCalendar", 
     "Obsidian.Obsidian", 
-    "Bitwarden.Bitwarden"
+    "Bitwarden.Bitwarden",
+    "Microsoft.PowerShell"
 )
 
 # Loop through each app and attempt installation

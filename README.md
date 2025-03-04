@@ -59,6 +59,26 @@ These commands calculate the total size of files in the source and destination d
 (Get-ChildItem "F:\" -Recurse | Measure-Object -Property Length -Sum).Sum
 ```
 
+### PowerShell Commands
+
+These commands are used for checking the PowerShell version and running PowerShell Core.
+
+#### Check PowerShell Version
+
+```powershell
+$PSVersionTable.PSVersion
+```
+
+This command outputs the current PowerShell version.
+
+#### Run PowerShell Core
+
+```powershell
+pwsh
+```
+
+This command starts a new PowerShell Core session.
+
 ## Usage
 
 1. Open PowerShell as Administrator.
