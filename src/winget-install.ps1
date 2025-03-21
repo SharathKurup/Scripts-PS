@@ -41,7 +41,9 @@ $apps = @(
     "Notion.NotionCalendar", 
     "Obsidian.Obsidian", 
     "Bitwarden.Bitwarden",
-    "Microsoft.PowerShell"
+    "Microsoft.PowerShell",
+    "WinMerge.WinMerge",
+    "Microsoft.DotNet.SDK.8"
 )
 
 # Loop through each app and attempt installation

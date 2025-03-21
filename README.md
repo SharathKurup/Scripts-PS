@@ -79,6 +79,74 @@ pwsh
 
 This command starts a new PowerShell Core session.
 
+### Common `winget` Commands
+
+These commands are used for managing applications using `winget`.
+
+#### Check `winget` Version
+
+```powershell
+winget --version
+```
+
+This command outputs the current `winget` version.
+
+#### Search for an Application
+
+```powershell
+winget search <app-name>
+```
+
+This command searches for an application by name.
+
+#### Install an Application
+
+```powershell
+winget install <app-ID>
+```
+
+This command installs an application by its ID.
+
+#### List Installed Applications
+
+```powershell
+winget list
+```
+
+This command lists all installed applications.
+
+#### Upgrade All Installed Applications
+
+```powershell
+winget upgrade --all
+```
+
+This command upgrades all installed applications to their latest versions.
+
+#### Upgrade a Specific Application
+
+```powershell
+winget upgrade <app-ID>
+```
+
+This command upgrades a specific application by its ID.
+
+#### Uninstall an Application
+
+```powershell
+winget uninstall <app-ID>
+```
+
+This command uninstalls an application by its ID.
+
+#### Install Multiple Applications
+
+```powershell
+winget install <app-id> <app-id> <app-id>
+```
+
+This command installs multiple applications by their IDs.
+
 ## Usage
 
 1. Open PowerShell as Administrator.
