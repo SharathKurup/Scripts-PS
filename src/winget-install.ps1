@@ -43,7 +43,11 @@ $apps = @(
     "Bitwarden.Bitwarden",
     "Microsoft.PowerShell",
     "WinMerge.WinMerge",
-    "Microsoft.DotNet.SDK.8"
+    "Microsoft.DotNet.SDK.8",
+    "GIMP.GIMP.3",
+    "Python.Python.3.13",
+    "Oven-sh.Bun",
+    "SoftDeluxe.FreeDownloadManager"
 )
 
 # Loop through each app and attempt installation
