@@ -47,7 +47,8 @@ $apps = @(
     "GIMP.GIMP.3",
     "Python.Python.3.13",
     "Oven-sh.Bun",
-    "SoftDeluxe.FreeDownloadManager"
+    "SoftDeluxe.FreeDownloadManager",
+    "Docker.DockerDesktop"
 )
 
 # Loop through each app and attempt installation
