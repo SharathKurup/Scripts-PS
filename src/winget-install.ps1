@@ -23,7 +23,7 @@ Write-Output "------------------------------------" | Out-File -Append $logFile
 # List of apps to install
 $apps = @(
     "Google.Chrome", 
-    "MartiCliment.UniGetUI",  
+    "Devolutions.UniGetUI",  
     "Notepad++.Notepad++",  
     "OpenJS.NodeJS.LTS",  
     "Microsoft.VisualStudioCode",  
@@ -48,7 +48,9 @@ $apps = @(
     "Python.Python.3.13",
     "Oven-sh.Bun",
     "SoftDeluxe.FreeDownloadManager",
-    "Docker.DockerDesktop"
+    "Docker.DockerDesktop",
+    "JetBrains.PyCharm.Community",
+    "GoLang.Go"
 )
 
 # Loop through each app and attempt installation
