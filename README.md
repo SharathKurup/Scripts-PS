@@ -24,6 +24,10 @@ This script performs the following tasks:
 
 This script reads the `winget-failed.txt` log file and attempts to reinstall any applications that previously failed to install.
 
+### `src/ollama_update.ps1`
+
+This script checks installed Ollama models and updates them by pulling the latest versions for each local model.
+
 ### `robocopy` Commands
 
 These commands are used for copying and verifying files between two directories.
@@ -152,7 +156,8 @@ This command installs multiple applications by their IDs.
 1. Open PowerShell as Administrator.
 2. Run `winget-install.ps1` to install or update the list of applications.
 3. If any applications fail to install, run `failed_install.ps1` to attempt to reinstall the failed applications.
-4. Use the `robocopy` commands to copy and verify files between directories.
+4. Run `src/ollama_update.ps1` to update all locally installed Ollama models.
+5. Use the `robocopy` commands to copy and verify files between directories.
 
 ## Set Execution Policy
 
